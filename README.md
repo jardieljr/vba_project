@@ -39,6 +39,8 @@ Number of Stocks : 8
 * MA weight : 12.67%
 * WMT weight : 15.25%
 
+Sump Check = 100%
+
 #### Optimal portfolio Performance
 
 * Sharpe Ratio : 0.43190822
