@@ -41,7 +41,7 @@ Number of Stocks : 8
 
 Sump Check = 100%
 
-![formula](Images/optweights.png)
+![formula](Images/optweights.JPG)
 
 #### Optimal portfolio Performance
 
