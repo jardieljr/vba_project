@@ -41,6 +41,8 @@ Number of Stocks : 8
 
 Sump Check = 100%
 
+![formula](Images/optweights.png)
+
 #### Optimal portfolio Performance
 
 * Sharpe Ratio : 0.43190822
