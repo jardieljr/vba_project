@@ -9,7 +9,7 @@
 Risk-free Rate : 0.3% \
 Number of iterations : 5000
 
-Stocks tickers selected :\
+Stocks tickers selected :
 * AAPL (Apple)
 * AI.PA (Air Liquide)
 * MSFT (Microsoft)
