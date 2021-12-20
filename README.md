@@ -1,6 +1,8 @@
 # VBA Project - Portfolio Optimization
 
+##Objectives
 
+This project aims to give to its final user an optimized portfolio. In order to do it, the user is supposed to input the stocks he/she is interested in. The excel file (through an VBA structured code) will extract the historical prices, which is 
 
 ## Model test
 
