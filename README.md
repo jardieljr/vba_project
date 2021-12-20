@@ -29,7 +29,7 @@ The main objective of this project is to construct an Automated Portfolio Optimi
 Risk-free Rate : 0.3% \
 Number of iterations : 5000
 
-Start Date : 17/01/2000\
+Start Date : 17/01/2010\
 End Date : 17/10/2020
 
 Stocks tickers selected :
@@ -123,13 +123,17 @@ Sump Check = 100%
 ![formula](Images/param2.JPG)
 
 
-#### Optimization simulations, Optimal Portfolio & Capital Market Line
+#### Back-testing of our optimal portfolio
 
-![formula](Images/graph2.JPG)
+![formula](Images/backt.JPG)
 
 ## Code explanations
 
 We segmented our VBA codes in 3 modules. Module 1 aims to perform the different computations for the portfolio optimization. Module 2 aims to extract the calculations from Module 1, distribute them into the different Excel sheet to make them clear and intuitive. Plus, Module 2 extract the data from Yahoo Finance through Alphavantage, distribute them into the sheets to be then processed by Module 1. Finally, Module 4 aims to manage the different results within the different Excel sheets, generate charts...
+
+#### Optimization simulations, Optimal Portfolio & Capital Market Line
+
+![formula](Images/optweights.JPG)
 
 ### Module 1
 
