@@ -170,6 +170,6 @@ Here is an overview of the stocks key metrics present in the "Stocks Key Metrics
 
 ![formula](Images/9.JPG)
 
-## Model Limitations
+## Model Limitations  
 
 Regarging our model several points can be pointed
