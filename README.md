@@ -2,7 +2,9 @@
 
 ## Objectives
 
-This project aims to give to its final user an optimized portfolio. In order to do it, the user is supposed to input the stocks he/she is interested in. The excel file (through an VBA structured code) will extract the historical prices, which is 
+This project aims to give to its final user an optimized portfolio. In order to do it, the user is supposed to input the stocks he/she is interested in. The excel file (through an VBA structured code) will extract the historical prices, which are available on Yahoo Finance API (accessed from alphavantage API). 
+
+After have chosen the stocks the user wants to have in his/her portfolio the code will compute, using the Modern portfolio theory the efficient frontier, in which the optmized portfolios are located. The final output will be the portfolio will be the portfolio in the efficient frontier tangent to the capital allocation line (CAL).
 
 ## Model test
 
