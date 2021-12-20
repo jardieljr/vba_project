@@ -6,14 +6,14 @@ This project aims to give to its final user an optimized portfolio. In order to 
 
 After have chosen the stocks the user wants to have in his/her portfolio the code will compute, using the Modern portfolio theory the efficient frontier, in which the optmized portfolios are located. The final output will be the portfolio will be the portfolio in the efficient frontier tangent to the capital allocation line (CAL).
 
-\begin{itemize} 
 
-\item The main objective of this project is to construct an Automated Portfolio Optimization Program in which the user can:
-\item Choose the number of stocks in the portfolio he wants to build.
-\item Import automatically the historical data for each stock with a given ticker (from Yahoo Finance for instance) or using a Power Query request to update the data in real-time.
-\item Compute automatically different metrics related to stock performance (returns, volatility, Sharpe Ratio…) and construct the efficient frontier.
-\item The code will optimize the portfolio weights to maximize the Sharpe ratio, optimizing the trade-off between returns and volatility.
-\item Finally, the user can select the “optimal” portfolio and its relative weights.
+
+  1. The main objective of this project is to construct an Automated Portfolio Optimization Program in which the user can:
+  2. Choose the number of stocks in the portfolio he wants to build.
+  3. Import automatically the historical data for each stock with a given ticker (from Yahoo Finance for instance) or using a Power Query request to update the data in real-time.
+  4. Compute automatically different metrics related to stock performance (returns, volatility, Sharpe Ratio…) and construct the efficient frontier.
+  5. The code will optimize the portfolio weights to maximize the Sharpe ratio, optimizing the trade-off between returns and volatility.
+  6. Finally, the user can select the “optimal” portfolio and its relative weights.
 
 
 ![formula](Images/portfolio_opt.png)
