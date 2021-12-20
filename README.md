@@ -128,6 +128,13 @@ Sump Check = 100%
 
 We segmented our VBA codes in 3 modules. Module 1 aims to perform the different computations for the portfolio optimization. Module 2 aims to extract the calculations from Module 1, distribute them into the different Excel sheet to make them clear and intuitive. Plus, Module 2 extract the data from Yahoo Finance through Alphavantage, distribute them into the sheets to be then processed by Module 1. Finally, Module 4 aims to manage the different results within the different Excel sheets, generate charts...
 
+### Module 1
+
+![formula](Images/1.JPG)
+
+Sub PortfOptProcess() aims to compute the potfolio optimization process. The first part of this Sub (see screenshot above) is initialize the different main parameters that are going to be used during the optimization process usch as the risk-free rate, the number of iterations, the number of stocks, initializing matrices that are going to be filled by optimization parameters such as portofolio returns, standard deviation, sharpe ratio etc.
+
+
 ## Model Limitations
 
 Regarging our model several points can be pointed
