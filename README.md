@@ -12,10 +12,13 @@ The main objective of this project is to construct an Automated Portfolio Optimi
   2. Import automatically the historical data for each stock with a given ticker (from Yahoo Finance, accessed using alphavantage) to update the data in real-time.
   3. Compute automatically different metrics related to stock performance (returns, volatility, Sharpe Ratio…) and construct the efficient frontier.
   4. The code will optimize the portfolio weights to maximize the Sharpe ratio, optimizing the trade-off between returns and volatility.
-  5. Finally, the user can select the “optimal” portfolio and its relative weights.
+  5. The user can select the “optimal” portfolio and its relative weights.
+  6. Backtest the optimal portfolio, allowing the user to know how the portfolio would have performed.
 
 
 ![formula](Images/portfolio_opt.png)
+
+<img width="734" alt="image" src="https://user-images.githubusercontent.com/39156622/146834344-f35f624c-b2a1-4d0b-a3c4-ccb197edc228.png">
 
 ## Model test
 
