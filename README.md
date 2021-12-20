@@ -1,5 +1,9 @@
 # VBA Project - Portfolio Optimization
 
+![formula](Images/téléchargé.png)
+
+Team : Ilyès BOUSSOUF; Jardiel Junior DA SILVA ARAUJO; Ikram OUDRA; Ilyasse BENOUNI; Ilyas MASMOUDI
+
 ## Objectives
 
 
