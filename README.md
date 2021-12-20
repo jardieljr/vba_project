@@ -182,19 +182,40 @@ Sub Summarize() aims to summarize all the stocks key metrics in the Excel sheet 
 Here is an overview of the stocks key metrics present in the "Stocks Key Metrics" for the Test 2 presented in our Model Test :
 
 ![formula](Images/9.JPG)
+
 ![formula](Images/10.JPG)
 
-#### Step 4 : Build New Sheets and Clear previous data extracted
+#### Step 3 : Summarize key data from our stocks data processing
 
-![formula](Images/14.JPG)
-![formula](Images/15.JPG)
 
-This Sub aims to create new sheets to avoid any conflicts between extractions and get fresh news sheets for each extraction and data processing.
 
-![formula](Images/17.JPG)
-
-This section aims to clear the previous data extraction during the previous portfolio optimisations with the Sub ClearSheetsFun(). Moreover, the 3 first subs on the screen above have been created jump to different sheets pushing buttons and the last Sub aims to give colors to the 3 main different tabs (Tickers, Input Sheet, Output Sheet) for the iuser to have a clear vision of the 3 main sheets and to distinguish main sheets from the other sheets generated during the process that are simply supports used to process our data for the portfolio optimization process.
 
 ## Model Limitations  
 
 Regarging our model several points can be pointed
+
+
+### Module 4
+Sub TransferCov()
+
+This sub has as goal to transfer the covariance matrix calculated during the optimization portfolio proccess. 
+
+
+![image](https://user-images.githubusercontent.com/39156622/146819643-c85e02b8-75a4-4e07-b33f-ce356afa28e6.png)
+
+
+Sub Chart1() 
+
+This sub is responsible for create the charts that are plotted in this project. In order to do it, all the parameters (chart type, data series...) need to be inputed during the chart construction proccess.
+
+![image](https://user-images.githubusercontent.com/39156622/146820449-f6b38370-c4bc-4996-af54-dae3b68d37d0.png)
+
+
+Sub backtestvalues()
+
+In this part of the code, the optimal portfolio returns were calculated. The aim of this is to have to the user an idea of how his portfolio would have performed in a period if he was allocating his resources in this portfolio.
+
+![image](https://user-images.githubusercontent.com/39156622/146820492-03205380-8dcc-45e1-b0be-f85330f459c6.png)
+
+
+
