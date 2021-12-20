@@ -64,3 +64,52 @@ Sump Check = 100%
 
 ## Test 2
 
+### Inputs
+
+Risk-free Rate : 0.005 (=0.5%) \
+Number of iterations : 10000
+
+Start Date : 10/03/2002\
+End Date : 17/05/2021
+
+Stocks tickers selected :
+* SAN.PA (Sanofi)
+* CAP.PA (Capgemini)
+* SGO.PA (Société Générale)
+* DIS (The Walt Disney Company)
+* BAC (Bank of America Corp)
+* WMT (Walmart)
+* TSM (Taiwan Semiconductor Manufacturing Company)
+* JNJ (Johnson & Johnson)
+* MC.PA (LVMH Moët Hennessy)
+* ACN (Accenture)
+
+Number of Stocks : 10
+
+### Outputs
+
+#### Optimal weights
+
+* SAN.PA weight : 0.89%
+* CAP.PA weight : 6.03%
+* SGO.PA weight : 0.16%
+* DIS weight : 0.95%
+* BAC weight : 13.37%
+* WMT weight : 11.71%
+* TSM weight : 23.79%
+* JNJ weight : 5.32%
+* MC.PA weight : 26.07%
+* ACN weight : 11.71%
+
+Sump Check = 100%
+
+![formula](Images/weights2.JPG)
+
+#### Optimal portfolio Performance
+
+* Sharpe Ratio : 0.3181
+* Portfolio Average Returns : 1.841%
+* Portfolio Standard Deviation : 4.214%
+
+![formula](Images/param2.JPG)
+
