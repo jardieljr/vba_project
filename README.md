@@ -231,6 +231,8 @@ In this part of the code, the optimal portfolio returns were calculated. The aim
 
 ## Model Limitations  
 
+The tool runs perfectly on Windows but doesn't run on Mac.
+
 The first limitation of our tool is the extraction time. We used Alphavantage to extract the data from Yahoo Finance, therefore we are using a free API key generated from Alphavantage. This API key allows us to perform only 5 requests per minute. Hence, we can approaximately extract the data from each stock each 12 seconds which makes our data extraction quite long in time. The user has to wait for all the data to be extracted. To overcome this issue, we advise to the user to get a premium Alphavantage key so the hole extraction can be performed in a matter of a second.
 
 A second limitation of Worbook is that the user has to press numerous buttons to get along all the different steps. This can be quite difficult to understand in a first time if the user hasn't read the PDF guide and the instructions given. As a matter of fact, we chose to segment the hole process in various steps (which explains the different buttons) to make our tool more robust to bugs and easier to debug for some reasons.
