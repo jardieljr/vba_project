@@ -152,6 +152,24 @@ Sub DoubleSort() aims to help PortfOptProcess() to select the "best" portfolio w
 
 This section of Module 1 simply clears the output area to update the result for each portfolio optimization. That way, the user doesn't have to do it by himself. The code is self-sufficient and everything could be done unqiuely using buttons. Moreover, the last Sub GoToOutput() can be used to redirect the user to the output sheet.
 
+### Module 2
+
+#### Step 1 : Displaying a Tickers input customzied window
+
+![formula](Images/6.JPG)
+
+Sub showTickerFrom() aims to display the customized Tickers window designed on VBA.
+Sub getTickerData() aims to extract the stocks data from https://www.alphavantage.co/ using its API.
+
+![formula](Images/7.JPG)
+![formula](Images/8.JPG)
+
+Sub Summarize() aims to summarize all the stocks key metrics in the Excel sheet "Stocks Key Metrics" with stocks correlations, stocks average returns, stocks mean standard deviartion for the user to get a clear overview of the different contributions from each stocks, their respective performances and the role they are likely to have in our portfolio (if stocks are negatively correlated to others etc..)
+
+Here is an overview of the stocks key metrics present in the "Stocks Key Metrics" for the Test 2 presented in our Model Test :
+
+![formula](Images/9.JPG)
+
 ## Model Limitations
 
 Regarging our model several points can be pointed
