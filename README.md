@@ -154,12 +154,25 @@ This section of Module 1 simply clears the output area to update the result for 
 
 ### Module 2
 
-#### Step 1 : Displaying a Tickers input customzied window
+#### Step 1 : Display a Tickers input customzied window
 
 ![formula](Images/6.JPG)
 
 Sub showTickerFrom() aims to display the customized Tickers window designed on VBA.
 Sub getTickerData() aims to extract the stocks data from https://www.alphavantage.co/ using its API.
+
+#### Step 2 : Extract the stocks data
+
+![formula](Images/10.JPG)
+
+This Sub aims to call the data extraction using one of our other Sub (getHistoricalData) from financial markets and aims to prepare our different sheets for the data processing.
+
+![formula](Images/12.JPG)
+![formula](Images/13.JPG)
+
+Sub getHistoricalData aims to extract the data from financial markets to be further processed. 
+
+#### Step 3 : Summarize key data from our stocks data processing
 
 ![formula](Images/7.JPG)
 ![formula](Images/8.JPG)
@@ -169,6 +182,10 @@ Sub Summarize() aims to summarize all the stocks key metrics in the Excel sheet 
 Here is an overview of the stocks key metrics present in the "Stocks Key Metrics" for the Test 2 presented in our Model Test :
 
 ![formula](Images/9.JPG)
+
+![formula](Images/10.JPG)
+
+#### Step 3 : Summarize key data from our stocks data processing
 
 ## Model Limitations  
 
