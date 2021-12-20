@@ -134,7 +134,7 @@ We segmented our VBA codes in 3 modules. Module 1 aims to perform the different 
 
 ![formula](Images/1.JPG)
 
-Sub PortfOptProcess() aims to compute the potfolio optimization process. The first part of this Sub (see screenshot above) is initializing the different main parameters that are going to be used during the optimization process usch as the risk-free rate, the number of iterations, the number of stocks, initializing matrices that are going to be filled by optimization parameters such as portofolio returns, standard deviation, sharpe ratio etc.
+Sub PortfOptProcess() aims to compute the portfolio optimization process. The first part of this Sub (see screenshot above) is initializing the different main parameters that are going to be used during the optimization process usch as the risk-free rate, the number of iterations, the number of stocks, initializing matrices that are going to be filled by optimization parameters such as portofolio returns, standard deviation, sharpe ratio etc.
 
 #### Step 2 : Portolio optimization process
 
