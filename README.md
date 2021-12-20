@@ -1,4 +1,4 @@
-# VBA Project - Portfolio Optimization
+# VBA Project - Stocks Portfolio Optimization
 
 ![formula](Images/téléchargé.png)
 
