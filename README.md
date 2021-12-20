@@ -62,6 +62,8 @@ Sump Check = 100%
 
 #### Optimization simulations, Optimal Portfolio & Capital Market Line
 
+![formula](Images/portfolio_opt.png)
+
 ## Test 2
 
 ### Inputs
@@ -112,4 +114,9 @@ Sump Check = 100%
 * Portfolio Standard Deviation : 4.214%
 
 ![formula](Images/param2.JPG)
+
+
+#### Optimization simulations, Optimal Portfolio & Capital Market Line
+
+![formula](Images/graph2.png)
 
