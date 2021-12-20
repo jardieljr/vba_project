@@ -187,6 +187,18 @@ Here is an overview of the stocks key metrics present in the "Stocks Key Metrics
 
 #### Step 3 : Summarize key data from our stocks data processing
 
+
+
+
 ## Model Limitations  
 
 Regarging our model several points can be pointed
+
+
+### Module 4
+Sub TransferCov()
+
+This sub has as goal to transfer the covariance matrix calculated during the optimization portfolio proccess. 
+![image](https://user-images.githubusercontent.com/39156622/146819643-c85e02b8-75a4-4e07-b33f-ce356afa28e6.png)
+
+
