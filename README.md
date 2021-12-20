@@ -130,9 +130,21 @@ We segmented our VBA codes in 3 modules. Module 1 aims to perform the different 
 
 ### Module 1
 
+#### Step 1 : Portolio optimization process initialization
+
 ![formula](Images/1.JPG)
 
-Sub PortfOptProcess() aims to compute the potfolio optimization process. The first part of this Sub (see screenshot above) is initialize the different main parameters that are going to be used during the optimization process usch as the risk-free rate, the number of iterations, the number of stocks, initializing matrices that are going to be filled by optimization parameters such as portofolio returns, standard deviation, sharpe ratio etc.
+Sub PortfOptProcess() aims to compute the potfolio optimization process. The first part of this Sub (see screenshot above) is initializing the different main parameters that are going to be used during the optimization process usch as the risk-free rate, the number of iterations, the number of stocks, initializing matrices that are going to be filled by optimization parameters such as portofolio returns, standard deviation, sharpe ratio etc.
+
+#### Step 2 : Portolio optimization process
+
+![formula](Images/2.JPG)
+![formula](Images/3.JPG)
+
+This is the following of Sub PortfOptProcess(), the different comments aim to help the user in understanding the different computations performed.
+In this part, the core of the portfolio optimization process is realized. We run numerous simulations based on the stocks selected by the user and the number of iterations order by him to select the "best" portfolio which corresponds to the tangency portfolio in practise which presents the highest Sharpe Ratio. In order to do this, we run a Loop which is going to compute the sharpe ratio of X portfolios (X corresponding to the number of iterations) and is going to select the one with the highest Sharpe Ratio. To select the "best" portfolio, this Sub uses another Sub in parallel called DoubleSort() and GoToOutput() which are going to be detailed in the following.
+
+![formula](Images/4.JPG)
 
 
 ## Model Limitations
