@@ -191,7 +191,14 @@ Here is an overview of the stocks key metrics present in the "Stocks Key Metrics
 ![formula](Images/14.JPG)
 ![formula](Images/15.JPG)
 
-This Sub called add new sheets within the workbook to add the extracted data in them and process this data. The sheet Yahoo aims to receipt all the data extracted from Yahoo finance. The sheet 'Assets Returns' is created with all the returns calculated using the 'Yahoo' sheet. These returns are then used to compute the key stocks metrics in the sheet 'Key Stocks Metrics'.
+This Sub called BuildNewSheetsData() add new sheets within the workbook to add the extracted data in them and process this data. The sheet Yahoo aims to receipt all the data extracted from Yahoo finance. The sheet 'Assets Returns' is created with all the returns calculated using the 'Yahoo' sheet. These returns are then used to compute the key stocks metrics in the sheet 'Stocks Key Metrics'.
+
+![formula](Images/16.JPG)
+
+The first Sub on the screen above called ClearSheetsFun() aims to clear and delete all previous 'Assets Returns', 'Stocks Key Metrics' and 'Yahoo' created in the context of another portfolio optimization. That way, the user will not have to delete manually useless sheets to later extract the data. This update has been done automatically such that the user just have to interact with the excel sheet pushing buttons in the hole optimization process.
+The 3 following Subs on the screen are used to jump between different sheets for the user's conveniance pushing buttons.
+Finally the last Sub on the previous screen, called ColorTabs() aims to color the 3 main sheets tabs ('Tickers', 'Iinput Sheet', 'Output Sheet') for the user to have a clear vision of the 3 sheets that will be of major interest to him. In parallel, the others sheets tabs ('Assets Returns', 'Stocks Key Metrics', 'Yahoo') are not colored because the user doesn't have to pay major attention to them, they are deleted and created at each optimization and are only used as a support for our different optimizations computations.
+
 
 
 ## Model Limitations  
