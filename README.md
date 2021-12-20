@@ -199,6 +199,17 @@ Regarging our model several points can be pointed
 Sub TransferCov()
 
 This sub has as goal to transfer the covariance matrix calculated during the optimization portfolio proccess. 
+
+
 ![image](https://user-images.githubusercontent.com/39156622/146819643-c85e02b8-75a4-4e07-b33f-ce356afa28e6.png)
+
+
+Sub Chart1() 
+
+This sub is responsible for create the charts that are plotted in this project. In order to do it, all the parameters (chart type, data series...) need to be inputed during the chart construction proccess.
+
+![image](https://user-images.githubusercontent.com/39156622/146820181-3eda0793-74fa-4d75-b6b5-e4ec10eb4808.png)
+
+
 
 
