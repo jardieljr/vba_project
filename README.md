@@ -124,3 +124,10 @@ Sump Check = 100%
 
 ![formula](Images/graph2.JPG)
 
+## Code explanations
+
+We segmented our VBA codes in 3 modules. Module 1 aims to perform the different computations for the portfolio optimization. Module 2 aims to extract the calculations from Module 1, distribute them into the different Excel sheet to make them clear and intuitive. Plus, Module 2 extract the data from Yahoo Finance through Alphavantage, distribute them into the sheets to be then processed by Module 1. Finally, Module 4 aims to manage the different results within the different Excel sheets, generate charts...
+
+## Model Limitations
+
+Regarging our model several points can be pointed
