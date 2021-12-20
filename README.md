@@ -200,12 +200,6 @@ The 3 following Subs on the screen are used to jump between different sheets for
 Finally the last Sub on the previous screen, called ColorTabs() aims to color the 3 main sheets tabs ('Tickers', 'Iinput Sheet', 'Output Sheet') for the user to have a clear vision of the 3 sheets that will be of major interest to him. In parallel, the others sheets tabs ('Assets Returns', 'Stocks Key Metrics', 'Yahoo') are not colored because the user doesn't have to pay major attention to them, they are deleted and created at each optimization and are only used as a support for our different optimizations computations.
 
 
-
-## Model Limitations  
-
-Regarging our model several points can be pointed
-
-
 ### Module 4
 Sub TransferCov()
 
@@ -228,5 +222,7 @@ In this part of the code, the optimal portfolio returns were calculated. The aim
 
 ![image](https://user-images.githubusercontent.com/39156622/146820492-03205380-8dcc-45e1-b0be-f85330f459c6.png)
 
+## Model Limitations  
 
+We used Alphavantage to extract the data from Yahoo Finance, therefore we are using a free API key generated from Alphavantage. This API key allows us to perform only 5 requests per minute. Hence, we can approaximately extract the data from each stock each 12 seconds which makes our data extraction quite long in time. The user has to wait for all the data to be extracted.
 
