@@ -186,11 +186,12 @@ Here is an overview of the stocks key metrics present in the "Stocks Key Metrics
 
 ![formula](Images/9.JPG)
 
-![formula](Images/10.JPG)
+#### Step 4 : Manage the different sheets
 
-#### Step 4 : Summarize key data from our stocks data processing
+![formula](Images/14.JPG)
+![formula](Images/15.JPG)
 
-
+This Sub called add new sheets within the workbook to add the extracted data in them and process this data. The sheet Yahoo aims to receipt all the data extracted from Yahoo finance. The sheet 'Assets Returns' is created with all the returns calculated using the 'Yahoo' sheet. These returns are then used to compute the key stocks metrics in the sheet 'Key Stocks Metrics'.
 
 
 ## Model Limitations  
