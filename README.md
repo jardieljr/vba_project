@@ -71,6 +71,11 @@ Sump Check = 100%
 
 ![formula](Images/portfolio_opt.png)
 
+
+#### Back-testing of our optimal portfolio
+
+![formula](Images/backt.JPG)
+
 ## Test 2
 
 ### Inputs
@@ -78,7 +83,7 @@ Sump Check = 100%
 Risk-free Rate : 0.005 (=0.5%) \
 Number of iterations : 10000
 
-Start Date : 10/03/2002\
+Start Date : 10/03/2011\
 End Date : 17/05/2021
 
 Stocks tickers selected :
@@ -121,11 +126,6 @@ Sump Check = 100%
 * Portfolio Standard Deviation : 4.214%
 
 ![formula](Images/param2.JPG)
-
-
-#### Back-testing of our optimal portfolio
-
-![formula](Images/backt.JPG)
 
 ## Code explanations
 
