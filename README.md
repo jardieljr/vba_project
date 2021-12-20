@@ -118,5 +118,5 @@ Sump Check = 100%
 
 #### Optimization simulations, Optimal Portfolio & Capital Market Line
 
-![formula](Images/graph2.png)
+![formula](Images/graph2.JPG)
 
