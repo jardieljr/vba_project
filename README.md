@@ -158,7 +158,10 @@ This section of Module 1 simply clears the output area to update the result for 
 
 ![formula](Images/6.JPG)
 
-Sub showTickerFrom() aims to display the customized Tickers window designed on VBA.
+Sub showTickerFrom() aims to display the customized Tickers window designed on VBA (see screen below).
+
+![formula](Images/design.JPG)
+
 Sub getTickerData() aims to extract the stocks data from https://www.alphavantage.co/ using its API.
 
 #### Step 2 : Extract the stocks data
@@ -185,7 +188,7 @@ Here is an overview of the stocks key metrics present in the "Stocks Key Metrics
 
 ![formula](Images/10.JPG)
 
-#### Step 3 : Summarize key data from our stocks data processing
+#### Step 4 : Summarize key data from our stocks data processing
 
 
 
